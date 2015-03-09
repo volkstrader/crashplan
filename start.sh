@@ -1,0 +1,1 @@
+docker run -d -h peenemunde --name=crashplan -v /media/data/volumes/crashplan/backups:/backups -v /media/archive:/media/archive -v /media/backup:/media/backup -p 4222:22 -p 4242:4242 -p 4243:4243 hcsoftech/crashplan
