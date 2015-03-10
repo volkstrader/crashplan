@@ -17,8 +17,7 @@ RUN mkdir /media/archive
 RUN mkdir /media/backup
 
 VOLUME /backups
-VOLUME /media/archive
-VOLUME /media/backup
+VOLUME /media
 
 EXPOSE 22 4243 4242
 
